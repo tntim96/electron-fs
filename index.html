@@ -3,9 +3,18 @@
   <head>
     <meta charset="UTF-8">
     <title>File-System</title>
+    <style>
+      .dir {
+        text-decoration: underline;
+      }
+      .dir:hover {
+        cursor: pointer;
+      }
+    </style>
   </head>
   <body>
-      <ul id="fileList"/>
+      <h1>Directory <span id="currDir"></span></h1>
+      <ul id="dirList"/>
       <script>window.$ = window.jQuery = require('./js/jquery-3.0.0.min.js');</script>
       <script src="./js/script.js"></script>
   </body>
